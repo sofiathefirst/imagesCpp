@@ -1,0 +1,3 @@
+/home/q/Desktop/Untitled Folder/01showImg/build/CMakeFiles/edit_cache.dir
+/home/q/Desktop/Untitled Folder/01showImg/build/CMakeFiles/rebuild_cache.dir
+/home/q/Desktop/Untitled Folder/01showImg/build/CMakeFiles/dd_node.dir
