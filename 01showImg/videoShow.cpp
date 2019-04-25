@@ -11,7 +11,12 @@ int main()
         cv::Mat img1;
         camCapLeft >> img1;
         imshow("L", img1);
-        cv::waitKey(1);
+        char c = cv::waitKey(1);
+				if(c=='s')
+			{
+printf("s\n");
+imwrite("a.jpg", img1);
+			}
     }
     camCapLeft.release();
     return 0;
