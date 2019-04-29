@@ -87,10 +87,7 @@ int main(int argc, char **argv)
         cv::Mat image, imageCopy;
         inputVideo.retrieve(image);
         image.copyTo(imageCopy);
-cv::aruco::drawMarker(dictionary, 34, 200, imageCopy, 1); 
-imshow("mak34er", imageCopy);
-cv::aruco::drawMarker(dictionary, 23, 200, imageCopy, 1); 
-imshow("maker", imageCopy);
+ 
 
         std::vector<int> ids;
         std::vector<std::vector<cv::Point2f> > corners;

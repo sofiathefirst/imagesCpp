@@ -31,8 +31,8 @@ include_directories(
 # add_dependencies(dd ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 
-# add_executable(videoShow demo.cpp)
- #target_link_libraries(videoShow  ${OpenCV_LIBS})
+ add_executable(dec demo.cpp)
+ target_link_libraries(dec  ${OpenCV_LIBS})
 
  add_executable(drawMaker drawMaker.cpp)
  target_link_libraries(drawMaker  ${OpenCV_LIBS})
