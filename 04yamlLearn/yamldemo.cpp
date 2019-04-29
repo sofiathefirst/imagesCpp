@@ -1,6 +1,9 @@
 #include "yaml-cpp/yaml.h"
 #include <iostream>
 #include<fstream>
+//https://blog.csdn.net/CAIYUNFREEDOM/article/details/89680915
+//https://github.com/jbeder/yaml-cpp
+
 using namespace std;
 int main() {
 	YAML::Node config = YAML::LoadFile(
