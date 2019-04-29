@@ -44,6 +44,10 @@ include_directories(
 
  add_executable(videoShow videoShow.cpp)
  target_link_libraries(videoShow  ${OpenCV_LIBS})
+
+ add_executable(cali_api cali_api.cpp)
+ target_link_libraries(cali_api  ${OpenCV_LIBS})
+
 #############
 ## Install ##
 #############
