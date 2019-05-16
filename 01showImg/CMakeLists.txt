@@ -48,6 +48,9 @@ include_directories(
  add_executable(cali_api cali_api.cpp)
  target_link_libraries(cali_api  ${OpenCV_LIBS})
 
+ add_executable(onMouse onMouse.cpp)
+ target_link_libraries(onMouse  ${OpenCV_LIBS})
+
 #############
 ## Install ##
 #############
